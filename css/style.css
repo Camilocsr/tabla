@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-tip {
+    width: 95%;
+    height: 40vh;
+    background-color: whitesmoke;
+    color: darkmagenta;
+}
+
+.aliniamiento-tip {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border: solid black 0.1px;
+}
+
+.text-tipo {
+    font-size: 20px;
+    margin: 6px;
+    border-radius: 10px;
+}
+
+.inputs-cosas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 60%;
+}
+
+.th {
+    width: 60px;
+    height: 60px;
+    color: blue;
+    margin: 20px;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+.botonañadirform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.envio-formulario {
+    width: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.envio-formulario:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.1s;
+    text-transform: uppercase;
+}
+
+.estavilisar-parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: darkmagenta;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.inputhover {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.inputhover:hover {
+    color: white;
+    background-color: black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
